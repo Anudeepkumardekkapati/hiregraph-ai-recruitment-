@@ -1,0 +1,209 @@
+[
+  {
+    "id": "candidate-001",
+    "userId": "user-001",
+    "displayName": "Anshumat Sharma",
+    "email": "hire-me@anshumat.org",
+    "completionPct": 95,
+    "createdAt": "2025-01-05T10:00:00Z",
+    "lastEdited": "2025-03-20T15:30:00Z",
+    "profileVisibility": "public",
+    "publicSlug": "anshumat-sharma-001",
+    "personal": {
+      "pronouns": "he/him",
+      "location": {
+        "city": "Bengaluru",
+        "region": "Karnataka",
+        "country": "India"
+      },
+      "remotePreference": "hybrid"
+    },
+    "preferences": {
+      "openTo": ["full-time", "contract"],
+      "salaryRange": {
+        "min": 15,
+        "max": 30,
+        "currency": "LPA"
+      },
+      "noticePeriod": "2 weeks"
+    },
+    "skills": [
+      {
+        "id": "skill-react",
+        "name": "React",
+        "level": 4,
+        "lastUsed": "2025-11",
+        "evidence": ["project-001"],
+        "provenance": "candidate"
+      },
+      {
+        "id": "skill-nodejs",
+        "name": "Node.js",
+        "level": 4,
+        "lastUsed": "2025-10",
+        "evidence": ["project-001", "project-002"],
+        "provenance": "candidate"
+      },
+      {
+        "id": "skill-stripe",
+        "name": "Stripe Integration",
+        "level": 3,
+        "lastUsed": "2025-09",
+        "evidence": ["project-002"],
+        "provenance": "ai"
+      },
+      {
+        "id": "skill-graphql",
+        "name": "GraphQL",
+        "level": 3,
+        "lastUsed": "2025-08",
+        "evidence": ["project-003"],
+        "provenance": "candidate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "project-001",
+        "title": "E-commerce Platform Redesign",
+        "problem": "Legacy codebase causing slow page loads and poor mobile experience",
+        "approach": "Migrated monolithic architecture to React + Node.js microservices with GraphQL API",
+        "roleInProject": "Lead Full-Stack Engineer",
+        "ownership": 0.8,
+        "teamSize": 5,
+        "tech": ["React", "Node.js", "GraphQL", "PostgreSQL"],
+        "metrics": [
+          {
+            "name": "pageLoadTime",
+            "baseline": 4.2,
+            "value": 1.1,
+            "unit": "seconds",
+            "improvementPct": 73.8,
+            "evidence": "lighthouse-report-link"
+          },
+          {
+            "name": "conversionRate",
+            "baseline": 2.1,
+            "value": 3.1,
+            "unit": "percent",
+            "improvementPct": 47.6,
+            "evidence": "analytics-dashboard"
+          }
+        ],
+        "evidence": ["github.com/anshumat/ecommerce-redesign"],
+        "startDate": "2024-06-01",
+        "endDate": "2025-01-15",
+        "provenance": "candidate"
+      },
+      {
+        "id": "project-002",
+        "title": "Payment Gateway Integration & Optimization",
+        "problem": "Failed payment processing at 6% rate, losing revenue",
+        "approach": "Integrated Stripe, implemented retry logic, added fraud detection",
+        "roleInProject": "Backend Lead",
+        "ownership": 0.9,
+        "teamSize": 3,
+        "tech": ["Node.js", "Stripe", "Redis"],
+        "metrics": [
+          {
+            "name": "failureRate",
+            "baseline": 6.0,
+            "value": 1.2,
+            "unit": "percent",
+            "improvementPct": 80.0,
+            "evidence": "payment-dashboard"
+          },
+          {
+            "name": "recoveredRevenue",
+            "baseline": 0,
+            "value": 450000,
+            "unit": "INR",
+            "improvementPct": null,
+            "evidence": "financial-report"
+          }
+        ],
+        "evidence": ["stripe-implementation-docs"],
+        "startDate": "2024-09-01",
+        "endDate": "2024-12-30",
+        "provenance": "candidate"
+      },
+      {
+        "id": "project-003",
+        "title": "Real-time Analytics Dashboard",
+        "problem": "Business teams unable to access real-time data insights",
+        "approach": "Built GraphQL API with WebSocket subscriptions, React dashboard with live metrics",
+        "roleInProject": "Full-Stack Developer",
+        "ownership": 0.6,
+        "teamSize": 4,
+        "tech": ["React", "GraphQL", "Node.js", "WebSocket"],
+        "metrics": [
+          {
+            "name": "dataRefreshTime",
+            "baseline": 300,
+            "value": 2,
+            "unit": "seconds",
+            "improvementPct": 99.3,
+            "evidence": "performance-logs"
+          }
+        ],
+        "evidence": ["demo-link"],
+        "startDate": "2024-03-15",
+        "endDate": "2024-08-31",
+        "provenance": "ai_confirmed"
+      }
+    ],
+    "roles": [
+      {
+        "id": "role-001",
+        "title": "Senior Full-Stack Engineer",
+        "company": "TechCorp India",
+        "location": "Bengaluru",
+        "from": "2023-06-01",
+        "until": "2025-03-24",
+        "summary": "Led frontend and backend development for 3+ production features, mentored 2 junior developers",
+        "impactScore": 85,
+        "provenance": "candidate"
+      },
+      {
+        "id": "role-002",
+        "title": "Full-Stack Developer",
+        "company": "StartupXYZ",
+        "location": "Remote",
+        "from": "2021-08-01",
+        "until": "2023-05-31",
+        "summary": "Built MVP and scaled to 100K+ users, managed infrastructure and deployments",
+        "impactScore": 78,
+        "provenance": "candidate"
+      }
+    ],
+    "education": [
+      {
+        "id": "edu-001",
+        "institution": "Indian Institute of Technology (IIT) Bombay",
+        "degree": "Bachelor of Technology",
+        "field": "Computer Science",
+        "from": "2017-07-01",
+        "until": "2021-05-31",
+        "honors": "CGPA 8.2/10",
+        "provenance": "candidate"
+      }
+    ],
+    "certifications": [
+      {
+        "id": "cert-001",
+        "name": "AWS Certified Solutions Architect",
+        "issuer": "Amazon Web Services",
+        "date": "2024-03-15",
+        "level": "Professional",
+        "link": "aws-cert-link"
+      }
+    ],
+    "verifications": [
+      {
+        "type": "github",
+        "source": "github.com/anshumat",
+        "verifiedOn": "2025-01-10T12:00:00Z"
+      }
+    ],
+    "profileSummary": "Senior Full-Stack Engineer with 4+ years experience building scalable web applications. Proven track record: 74% page load reduction, 80% payment failure improvement, 3 production features shipped. Expertise in React, Node.js, GraphQL, and cloud infrastructure."
+  }
+]

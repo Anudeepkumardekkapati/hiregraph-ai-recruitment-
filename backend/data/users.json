@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user-001",
+    "email": "hire-me@anshumat.org",
+    "password": "HireMe@2025!",
+    "name": "Anshumat Sharma",
+    "createdAt": "2025-01-01T00:00:00Z",
+    "role": "candidate"
+  },
+  {
+    "id": "recruiter-001",
+    "email": "recruiter@company.com",
+    "password": "Recruiter@2025!",
+    "name": "Jane Recruiter",
+    "createdAt": "2025-01-01T00:00:00Z",
+    "role": "recruiter"
+  }
+]
